@@ -1,13 +1,13 @@
 ***Firmware Directory***
 /home/lloyd/Desktop/Uni2024/TS2024/_ir1800-universalk9.17.13.01a.SPA.bin.extracted/squashfs-root/_ir1800-mono-universalk9.17.13.01a.SPA.pkg.extracted/squashfs-root/
 ***Search for password files***
-##################################### passwd
+###### passwd
 /usr/bin/passwd
 /etc/passwd
 
-##################################### shadow
+###### shadow
 
-##################################### *.psk
+###### *.psk
 
 ***Search for Unix-MD5 hashes***
 /home/lloyd/Desktop/Uni2024/TS2024/_ir1800-universalk9.17.13.01a.SPA.bin.extracted/squashfs-root/_ir1800-mono-universalk9.17.13.01a.SPA.pkg.extracted/squashfs-root/etc/confd/conf/confd_reset_config_on_reboot.xml:$1$JDYJVGNY$qenQ3N1EOEuPGxGZXEtsw.
@@ -16,7 +16,7 @@
 
 
 ***Search for SSL related files***
-##################################### *.crt
+###### *.crt
 /usr/share/umbrella/umbrella-root-ca.crt
 /usr/share/viptela-image/viptela-production-ca.crt
 /usr/share/viptela-image/zprov-production-ca.crt
@@ -25,7 +25,7 @@
 /usr/share/viptela-image/viptela-eng-ca.crt
 /usr/share/viptela-image/root-ca-sha1-sha2.crt
 
-##################################### *.pem
+###### *.pem
 /usr/lib64/python3.10/site-packages/pnp/data/crcam1.pem
 /usr/lib64/python3.10/site-packages/pnp/data/ios_core.pem
 /usr/lib64/python3.10/site-packages/pnp/data/cco_ca.pem
@@ -37,41 +37,41 @@
 /usr/share/viptela-image/ViptelaChain.pem
 /usr/share/viptela-image/AzureStorageCerts.crt.pem
 
-##################################### *.cer
+###### *.cer
 /usr/lib64/python3.10/site-packages/pnp/data/RootBundlerSigner.cer
 
-##################################### *.p7b
+###### *.p7b
 /etc/ios_core.p7b
 /var/ODM/ios_core.p7b
 
-##################################### *.p12
+###### *.p12
 
-##################################### *.key
+###### *.key
 /usr/binos/openresty/etc/ssl/cert/fallback.key
 
 
 ***Search for SSH related files***
-##################################### authorized_keys
+###### authorized_keys
 
-##################################### *authorized_keys*
+###### *authorized_keys*
 
-##################################### host_key
+###### host_key
 
-##################################### *host_key*
+###### *host_key*
 
-##################################### id_rsa
+###### id_rsa
 
-##################################### *id_rsa*
+###### *id_rsa*
 
-##################################### id_dsa
+###### id_dsa
 
-##################################### *id_dsa*
+###### *id_dsa*
 
-##################################### *.pub
+###### *.pub
 
 
 ***Search for files***
-##################################### *.conf
+###### *.conf
 /usr/lib64/python3.10/site-packages/cherrypy/scaffold/apache-fcgi.conf
 /usr/lib64/python3.10/site-packages/cherrypy/scaffold/site.conf
 /usr/lib64/python3.10/site-packages/cherrypy/scaffold/example.conf
@@ -171,7 +171,7 @@
 /guestshell/guestshell.conf
 /var/www/features/iox/config/iox.conf
 
-##################################### *.cfg
+###### *.cfg
 /usr/lib64/python3.10/site-packages/pnp/data/cfg/pnp_config.cfg
 /usr/lib64/python3.10/site-packages/pnp/data/cfg/pnp_logging.cfg
 /usr/lib64/python3.10/site-packages/pnp/data/cfg/file_paths.cfg
@@ -182,21 +182,21 @@
 /usr/lib64/python3.10/turtledemo/turtle.cfg
 /etc/mv_cdal.d/cdal-tsn.cfg
 
-##################################### *.ini
+###### *.ini
 /opt/cisco/caf/config/log-config.ini
 /opt/cisco/caf/config/middleware-config.ini
 
 
 ***Search for database related files***
-##################################### *.db
+###### *.db
 
-##################################### *.sqlite
+###### *.sqlite
 
-##################################### *.sqlite3
+###### *.sqlite3
 
 
 ***Search for shell scripts***
-##################################### shell scripts
+###### shell scripts
 /hugepages.sh
 /rmon_vars.sh
 /usr/sbin/fsck_or_mkfs.sh
@@ -749,7 +749,7 @@
 /verify_packages.sh
 
 ***Search for other .bin files***
-##################################### bin files
+###### bin files
 /usr/lib/firmware/inside-secure/eip197b/ipue.bin
 /usr/lib/firmware/inside-secure/eip197b/ifpp.bin
 /usr/lib/firmware/mss/RTOSFC-mss-cp0-cm3.bin
@@ -10503,57 +10503,57 @@
 
 
 ***Search for web servers***
-##################################### search for web servers
-##################################### apache
+###### search for web servers
+###### apache
 
-##################################### lighttpd
+###### lighttpd
 
-##################################### alphapd
+###### alphapd
 
-##################################### httpd
+###### httpd
 
 
 ***Search for important binaries***
-##################################### important binaries
-##################################### ssh
+###### important binaries
+###### ssh
 /usr/binos/bin/ssh
 /usr/bin/ssh
 /etc/ssh
 
-##################################### sshd
+###### sshd
 /usr/sbin/sshd
 /etc/init.d/sshd
 /etc/pam.d/sshd
 
-##################################### scp
+###### scp
 /usr/binos/bin/scp
 /usr/bin/scp
 
-##################################### sftp
+###### sftp
 /usr/binos/bin/sftp
 /usr/bin/sftp
 
-##################################### tftp
+###### tftp
 /usr/bin/tftp
 
-##################################### dropbear
+###### dropbear
 
-##################################### busybox
+###### busybox
 /usr/bin/busybox
 
-##################################### telnet
+###### telnet
 /usr/bin/telnet
 
-##################################### telnetd
+###### telnetd
 
-##################################### openssl
+###### openssl
 /usr/lib64/python3.10/site-packages/cryptography/hazmat/bindings/openssl
 /usr/lib64/python3.10/site-packages/cryptography/hazmat/backends/openssl
 /usr/bin/openssl
 
 
 ***Search for ip addresses***
-##################################### ip addresses
+###### ip addresses
 0.0.0.0
 00.00.40.96
 0.0.0.1
@@ -14794,7 +14794,7 @@
 99.8.1.9
 
 ***Search for urls***
-##################################### urls
+###### urls
 http://[
 http://' + $scope.taubeIpAddress, '_blank');
 http://[::1]
@@ -15367,7 +15367,7 @@ http://zed.cisco.com
 http://またはhttps:
 
 ***Search for emails***
-##################################### emails
+###### emails
 A.Ballardie@cs.ucl.ac.uk
 abierman@cisco.com
 abierman@west.net
